@@ -57,23 +57,16 @@ a {
     text-decoration: none;
 }
 
-/* Target anchor elements with hyperlinks */
-a[href] {
-    text-decoration: none;
-}
-
-/* Target visited state for the link */
-a[href]:visited {
+a:link,
+a:visited {
     font-style: italic;
 }
 
-/* Target hover state for the link */
-a[href]:hover {
+a:hover {
     text-decoration: underline;
 }
 
-/* Target active state for the link */
-a[href]:active {
+a:active {
     background-color: var(--color-light-grey);
 }
 
@@ -97,11 +90,6 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
 }
-
-.container {
-    max-width: 960px;
-    margin: 0 auto; /* This centers the container and evenly distributes margins */
-  }
 
 .section-title {
     font-family: var(--font-family-title);
