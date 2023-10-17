@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
 @import url('normalize.css');
 
 :root {
@@ -32,13 +39,6 @@
     --section-title-color: var(--color-black);
 }
 
-* {
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
 
 body {
     font-family: var(--font-family-base);
