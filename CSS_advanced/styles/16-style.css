@@ -38,7 +38,9 @@
     --section-title-color: var(--color-black);
 }
 
-* {
+*,
+*:before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -111,4 +113,3 @@ a:active {
     width: 960px;
     margin: 0 auto;
   }
-  
